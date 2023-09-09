@@ -5,13 +5,14 @@ We need APDU commands for pin verification. These APDU commands vary according t
 Since a 6-digit pin will be entered, we need to enter a minimum value of 6 and a maximum value of 6, that is  <ins>0606</ins>, in the <ins>Pin Extra Digit</ins> field. The data in the 'abData' section is important. This data is CLA, INS, P1, P2 and L*p* (length of the pin to be entered) respectively. <br><br>
 ****abData*** : CLA, INS, P1, P2, Lp*
 <br> <br>
-***CLA (Class Byte):***  The class indicates the type of operation to be performed, e.g. whether it is a basic operation or a special operation. For example, the CLA byte "00" often represents basic operations, while the CLA byte "80" may represent special operations.
 
-***INS (Instruction Byte):*** The INS byte specifies the specific instruction to be executed. This byte tells the board what operation to perform.
+***CLA (Class Byte):***      The class indicates the type of operation to be performed, e.g. whether it is a basic operation or a special operation. For example, the CLA byte "00" often represents basic operations, while the CLA byte "80" may represent special operations.
 
-***P1 (Parameter 1):*** The P1 byte indicates whether the command is associated with a specific parameter. For example, in a command to change a PIN code, the P1 byte can specify which PIN to change.
+***INS (Instruction Byte):***      The INS byte specifies the specific instruction to be executed. This byte tells the board what operation to perform.
 
-***P2 (parameter 2):*** The P2 byte, used in conjunction with P1, specifies how the command is further associated with additional parameters. It is particularly used for more specific commands. For example, if the P1 byte indicates that a PIN is to be changed, the P2 byte can specify what operation is to be performed (e.g. changing the PIN code).
+***P1 (Parameter 1):***      The P1 byte indicates whether the command is associated with a specific parameter. For example, in a command to change a PIN code, the P1 byte can specify which PIN to change.
+
+***P2 (parameter 2):***      The P2 byte, used in conjunction with P1, specifies how the command is further associated with additional parameters. It is particularly used for more specific commands. For example, if the P1 byte indicates that a PIN is to be changed, the P2 byte can specify what operation is to be performed (e.g. changing the PIN code).
 
 <br> <br>
 
