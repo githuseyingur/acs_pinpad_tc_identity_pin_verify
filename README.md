@@ -14,8 +14,11 @@
 
 ##### Response : 90 00
 A response is returned as a result of the pin verification process. If this response is "90 00", it means that the pin verification process was successful.
+
+
 Complete list of APDU responses : https://www.eftlab.com/knowledge-base/complete-list-of-apdu-responses
 
-
+<br> <br>
+<br> <br>
 
 ##### Thanks to Muhammed Hoşgör : https://github.com/muhammedhosgor
