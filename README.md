@@ -1,8 +1,8 @@
-#### Verify TC Identity Card PIN from ACS Smartcard Reader
+### Verify TC Identity Card PIN from ACS Smartcard Reader
 
 
-PIN VERIFICATION SUCCESSFUL TEST FOR IAS CARD <br>
---------------------------------------------- <br>
+#### PIN VERIFICATION SUCCESSFUL TEST FOR IAS CARD <br>
+--------------------------------------------------- <br>
 Timeout : 1E   (30 sec)   <br> <br>
 Timeout 2 : 1E   (30 sec)  <br> <br>
 Format String : 82  (ASCI) if BCD 89 <br> <br>
@@ -29,4 +29,4 @@ abData : 00 20 00 01 06  <br> <br>
 
 
 
-##### Thanks to Muhammed İzzet Hoşgör : https://github.com/muhammedhosgor
+##### Thanks to Muhammed Hoşgör : https://github.com/muhammedhosgor
