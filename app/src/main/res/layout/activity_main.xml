@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.9"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/main_text_view_response"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:text="TextView"></TextView>
+        <EditText
+            android:id="@+id/main_edit_text_command"
+            android:inputType="textMultiLine"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1">
+            <requestFocus></requestFocus>
+        </EditText>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- <Spinner
+                    android:id="@+id/main_spinner_reader"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"></Spinner> -->
+                <!--  <Button
+                    android:id="@+id/main_button_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="List"></Button> -->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/main_button_power"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Power"></Button>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transmit / Control:"
+                android:textSize="20dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/main_button_transmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transmit"></Button>
+
+                <Button
+                    android:id="@+id/main_button_control"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Control"></Button>
+
+                <EditText
+                    android:id="@+id/main_edit_text_control"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"></EditText>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Secure PIN Entry:"
+                android:textSize="20dp"></TextView>
+
+            <Button
+                android:id="@+id/main_button_get_features"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Features"></Button>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/main_button_verify_pin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Verify PIN"></Button>
+
+                <Button
+                    android:id="@+id/main_button_modify_pin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Modify PIN"></Button>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACR83 / APG8201:"
+                android:textSize="20dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/main_button_read_key"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Read Key"></Button>
+
+                <Button
+                    android:id="@+id/main_button_display_lcd_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Display LCD Message"></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
