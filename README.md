@@ -29,7 +29,7 @@ Since a 6-digit pin will be entered, we need to enter a minimum value of 6 and a
 
 <br> <br>
 
-##### Response : *90 00* (Successful)
+#### Response : *90 00* (Successful)
 A response is returned as a result of the pin verification process.   <br>
 If this response is *90 00*, it means that the pin verification process was successful.
 
