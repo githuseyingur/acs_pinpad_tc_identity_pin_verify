@@ -4,7 +4,7 @@ We need APDU commands for pin verification. These APDU commands vary according t
 <img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/0159220b-7453-49d3-b903-663ff78ccc41"  width="620" height ="355"> <br> <br> <br>
 Since a 6-digit pin will be entered, we need to enter a minimum value of 6 and a maximum value of 6, that is  <ins>0606</ins>, in the <ins>Pin Extra Digit</ins> field. The data in the 'abData' section is important. This data is CLA, INS, P1, P2 and L*p* (length of the pin to be entered) respectively. <br><br>
 
-##### abData : CLA, INS, P1, P2, Lp
+#### abData : CLA, INS, P1, P2, Lp
 <br> 
 
 ***CLA (Class Byte):*** &nbsp; &nbsp;The class indicates the type of operation to be performed, e.g. whether it is a basic operation or a special operation. For example, the CLA byte "00" often represents basic operations, while the CLA byte "80" may represent special operations.
