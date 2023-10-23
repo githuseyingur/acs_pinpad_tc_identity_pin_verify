@@ -19,7 +19,7 @@ Since a 6-digit pin will be entered, we need to enter a minimum value of 6 and a
 
 
 <br> <br>
-<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/322f4690-f627-429e-8b50-5154affbe489"  width="480" height ="580">
+<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/0d2d96f2-916f-4e6e-b730-b114b4169a5c"  width="480" height ="580">
 <img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/af2b9bd5-6b63-4942-9339-833eb8129c63"  width="360" height ="580">
 
 <br> <br>
