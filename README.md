@@ -30,7 +30,6 @@ Since a 6-digit pin will be entered, we need to enter a minimum value of 6 and a
 <img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/32f40029-a47f-441b-b4a0-d41806e5e1e5"  width="360" height ="580">
 
 <br>
-!! Pictures will be updated.
 <br> <br>
 
 #### Response : *90 00* (Successful)
