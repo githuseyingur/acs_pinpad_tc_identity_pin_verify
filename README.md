@@ -20,13 +20,15 @@ Since a 6-digit pin will be entered, we need to enter a minimum value of 6 and a
 
 <br> <br>
 
-<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/a4655562-0b74-4959-aedb-f2b147470331"  width="360" height ="580">
-<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/bbf5fcc1-ea1d-47e2-b3c9-7bcab493205e"  width="360" height ="580">
+<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/2091b5c6-3e54-43f9-9c24-87877366f2fb"  width="360" height ="580">
+<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/af2b9bd5-6b63-4942-9339-833eb8129c63"  width="360" height ="580">
 
 <br> <br>
 
-<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/17d1de26-ba15-4cf6-99ad-abfb6b7d51ff"  width="280" height ="580">
-<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/99a1f8b1-0f37-4daa-b921-9a144f32f2f6"  width="360" height ="580">
+<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/e6d023d0-1c48-46d4-b92e-fffd1f4e67f1"  width="280" height ="580">
+<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/b03982ff-73a9-4dbf-8186-66cd7944dc22"  width="360" height ="580">
+<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/32f40029-a47f-441b-b4a0-d41806e5e1e5"  width="360" height ="580">
+
 <br>
 !! Pictures will be updated.
 <br> <br>
