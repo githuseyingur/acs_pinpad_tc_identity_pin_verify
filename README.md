@@ -25,9 +25,10 @@ Since a 6-digit pin will be entered, we need to enter a minimum value of 6 and a
 
 <br> <br>
 
-<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/e6d023d0-1c48-46d4-b92e-fffd1f4e67f1"  width="360" height ="580">
-<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/b03982ff-73a9-4dbf-8186-66cd7944dc22"  width="280" height ="580">
-<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/32f40029-a47f-441b-b4a0-d41806e5e1e5"  width="360" height ="580">
+
+<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/055f302a-19e1-42ac-909e-953b3c6b6302"  width="360" height ="580">
+<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/3ca7bdf7-b78d-4365-9188-f9b52e85fac6"  width="280" height ="580">
+<img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/70bc14ab-5b9e-478d-887d-e1413209ebaa"  width="360" height ="580">
 
 <br>
 <br> <br>
