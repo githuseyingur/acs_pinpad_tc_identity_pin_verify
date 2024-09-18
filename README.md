@@ -1,6 +1,6 @@
 ## Verify TC Identity Card PIN from ACS Smartcard Reader
-
-We need APDU commands for pin verification. These APDU commands vary according to the type of the card. Since the card we will use is a TC ID card, we need to work with IAS-specific APDU commands. These values are as follows:  <br> <br>
+NOTE : This code is originally sourced from the "ACS Smart Card Reader Code Sample For Android" and has been modified.
+We need APDU commands for PIN Verification. These APDU commands vary according to the type of the card. Since the card we will use is a TC ID card, we need to work with IAS-specific APDU commands. These values are as follows:  <br> <br>
 <img src="https://github.com/githuseyingur/acs_pinpad_verify_tc_identity_pin/assets/120099096/bc0b3008-705f-4519-b1a2-58ac06731a7b"  width="620" height ="355"> <br> <br> <br>
 Since a 6-digit pin will be entered, we need to enter a minimum value of 6 and a maximum value of 6, that is  <ins>0606</ins>, in the <ins>Pin Extra Digit</ins> field. The data in the 'abData' section is important. This data is CLA, INS, P1, P2 and L*p* (length of the pin to be entered) respectively. <br><br>
 
